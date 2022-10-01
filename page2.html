@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page2.css">
+    <title>Apply</title>
+</head>
+<body>
+    <ul class="nav-list">
+        <li class="nav-item">
+            <p>Apply Now</p>
+        </li>
+        <li class="nav-item">
+            <a href="page1.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a href="page2.html">Apply</a>
+        </li>
+        <li class="nav-item">
+            <a href="page3.html">Links</a>
+        </li>
+        <li class="nav-item">
+            <a href="page4.html">Gallery</a>
+        </li>
+      </ul>
+    <form method="post">
+        <fieldset>
+          <div>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="first_name">
+          </div>
+          <div>
+            <label for="lastName">Last Name:</label>
+            <input type="text" name="last_name" id="lastName">
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div>
+            <label for="status">Status:</label>
+            <select name="status" id="status">
+              <option value="student">Student</option>
+              <option value="Teacher">Teacher</option>
+              <option value="guest">Guest</option>
+            </select>
+          </div>
+          <div>
+            <p>Favorite Type of Animal:</p>
+            <label for="dog">Dog</label>
+            <input type="radio" id="dog" name="select" value="dog">
+            <label for="cat">Cat</label>
+            <input type="radio" id="cat" name="select" value="cat">
+            <label for="other">Other</label>
+            <input type="radio" name="select" id="other" value="other">
+          </div>
+          <div>
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments"></textarea>
+          </div>
+          <div>
+            <label for="currentDate">Current Date:</label>
+            <input type="date" id="currentDate">
+          </div>
+          <div>
+            <label for="newsletter">Sign up for newsletter</label>
+            <input type="checkbox" name="newsletter" id="newsletter">
+          </div>
+          <div>
+            <label for="terms">Agree to terms and conditions</label>
+            <input type="checkbox" name="terms" id="terms">
+          </div>
+          <div>
+            <button>Submit</button>
+          </div>
+        </fieldset>
+      </form>
+</body>
+</html>
