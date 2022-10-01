@@ -1,5 +1,6 @@
 body {
     background-color: #001D3D;
+    margin: 0;
 }
 
 h1, h2 {
@@ -59,3 +60,14 @@ text-align: center;
 margin-top: 0;
 border-radius: 1em;
 }
+
+@media screen and (max-width:470px) {
+    .main {
+      width:300px;
+
+    }
+    .nav-list {
+      flex-direction: column;
+    }
+
+  }

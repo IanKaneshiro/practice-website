@@ -110,3 +110,16 @@ a {
     color: black;
     transition: 0.5s;
 }
+
+@media screen and (max-width:470px) {
+    form {
+      width:300px;
+
+    }
+    .nav-list {
+      flex-direction: column;
+    }
+    select, input, textarea {
+      width: 150px;
+    }
+  }
